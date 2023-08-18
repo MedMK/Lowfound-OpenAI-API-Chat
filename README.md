@@ -18,13 +18,11 @@ Follow the steps below to set up and run the project on your local machine.
 
 1. Clone the repository:
 
-```bash
 git clone https://github.com/your-username/Lowfound-OpenAI-API-Chat.git
 cd Lowfound-OpenAI-API-Chat/backend
 
 2. Install dependencies:
 
-```bash
 npm install
 
 3. Create a .env file in the backend directory and add the following environment variables:
