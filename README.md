@@ -2,6 +2,10 @@
 
 This project uses Nest.js as the backend and React as the frontend to create a chat application powered by the OpenAI API. Users can engage in natural language conversations with the AI model.
 
+## Demo Video 
+
+[https://youtu.be/FMVi9xdKGYc](https://youtu.be/FMVi9xdKGYc)
+
 ## Preview
 
 Chat Page
@@ -102,4 +106,3 @@ Contributions are welcome! Feel free to fork the repository and submit pull requ
 ### License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-
