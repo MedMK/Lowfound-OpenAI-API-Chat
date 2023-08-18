@@ -27,7 +27,7 @@ npm install
 
 3. Create a .env file in the backend directory and add the following environment variables:
 
-```bash
+
 DB_URI=your_database_connection_string
 JWT_SECRET=your_jwt_secret_key
 JWT_EXPIRES=token_expiration_time
@@ -38,7 +38,6 @@ Replace the placeholders with your actual values.
 
 4. Run the backend server:
 
-```bash
 npm run start:dev
 
 The backend server should now be running at the specified port.
