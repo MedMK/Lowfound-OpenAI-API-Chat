@@ -1,74 +1,23 @@
-﻿# Lowfound-OpenAI-API-Chat
-Lowfound OpenAI API Chat Project
+# Lowfound OpenAI API Chat Project
+
 This project uses Nest.js as the backend and React as the frontend to create a chat application powered by the OpenAI API. Users can engage in natural language conversations with the AI model.
 
-Prerequisites
+## Prerequisites
+
 Before you begin, make sure you have the following installed:
 
-Node.js (v14 or later)
-npm (Node Package Manager)
-Git
-Getting Started
+- Node.js (v14 or later)
+- npm (Node Package Manager)
+- Git
+
+## Getting Started
+
 Follow the steps below to set up and run the project on your local machine.
 
-Backend (Nest.js)
-Clone the repository:
-bash
-Copy code
+### Backend (Nest.js)
+
+1. Clone the repository:
+
+```bash
 git clone https://github.com/your-username/Lowfound-OpenAI-API-Chat.git
 cd Lowfound-OpenAI-API-Chat/backend
-Install dependencies:
-bash
-Copy code
-npm install
-Create a .env file in the backend directory and add the following environment variables:
-dotenv
-Copy code
-DB_URI=your_database_connection_string
-JWT_SECRET=your_jwt_secret_key
-JWT_EXPIRES=token_expiration_time
-PORT=backend_server_port
-OPENAI_API_KEY=your_openai_api_key
-Replace the placeholders with your actual values.
-
-Run the backend server:
-bash
-Copy code
-npm run start:dev
-The backend server should now be running at the specified port.
-
-Frontend (React)
-Open a new terminal window/tab and navigate to the frontend directory:
-bash
-Copy code
-cd ../frontend
-Install dependencies:
-bash
-Copy code
-npm install
-Create a .env file in the frontend directory and add the following environment variable:
-dotenv
-Copy code
-REACT_APP_BACKEND_URL=http://localhost:PORT
-Replace PORT with the actual port number where the backend server is running.
-
-Run the frontend development server:
-bash
-Copy code
-npm start
-The frontend should now be accessible at http://localhost:3000 (or a different port if specified).
-
-Usage
-Open your web browser and navigate to http://localhost:3000 (or the specified port) to access the chat application. Engage in natural language conversations with the AI model using the provided interface.
-
-Contributing
-Contributions are welcome! Feel free to fork the repository and submit pull requests.
-
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-Feel free to customize the instructions and information according to your project's specifics. Good luck with your Lowfound OpenAI API Chat project!
-
-
-
-
