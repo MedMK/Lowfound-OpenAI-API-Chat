@@ -2,6 +2,19 @@
 
 This project uses Nest.js as the backend and React as the frontend to create a chat application powered by the OpenAI API. Users can engage in natural language conversations with the AI model.
 
+## Preview
+
+Chat Page
+
+
+!["ChatPage"](https://res.cloudinary.com/dhbejijc4/image/upload/v1692365842/2_fbddh5.png "Chat Page")
+
+Sigin Page
+!["Sigin Page"](https://res.cloudinary.com/dhbejijc4/image/upload/v1692365846/1_wouupf.png "Sigin Page")
+
+
+
+
 ## Prerequisites
 
 Before you begin, make sure you have the following installed:
@@ -79,7 +92,7 @@ The frontend should now be accessible at http://127.0.0.1:5173
 
 ### Usage
 
-Open your web browser and navigate to http://localhost:3000 (or the specified port) to access the chat application. Engage in natural language conversations with the AI model using the provided interface.
+Open your web browser and navigate to http://127.0.0.1:5173 to access the chat application. Engage in natural language conversations with the AI model using the provided interface.
 
 
 ### Contributing
@@ -89,3 +102,7 @@ Contributions are welcome! Feel free to fork the repository and submit pull requ
 ### License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
+
+
+
+
